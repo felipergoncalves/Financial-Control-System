@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "./components/Header"
 import Resume from "./components/Resume"
+import Form from "./components/Form"
 import GlobalStyle from "./styles/global"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Resume />
+      <Form />
       <GlobalStyle />
     </>
   )
